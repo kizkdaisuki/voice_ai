@@ -1,0 +1,22 @@
+# 语音识别助手依赖包
+
+# 语音识别核心库
+SpeechRecognition==3.10.0
+
+# 音频处理库
+pyaudio==0.2.11
+
+# 系统音频捕获（支持macOS）
+soundcard==0.4.2
+
+# 数值计算
+numpy==1.24.3
+
+# 可选的语音识别引擎（如果不想用Google的话）
+# pocketsphinx==5.0.0
+
+# HTTP请求库（SpeechRecognition依赖）
+requests==2.31.0
+
+# 其他可能有用的库
+# openai-whisper==20230314  # 如果想用Whisper本地识别 
